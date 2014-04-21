@@ -1,9 +1,9 @@
 {
-  "name": "Angry Birds (not really)",
+  "name": "Misfeasance",
   "description": "A testing packaged app with mis-matched mini-manifest and manifest",
-  "package_path": "https://ozten.github.io/misfeasance/package.zip",
   "version": "1",
-  "size": 72932,
+  "package_path": "https://ozten.github.io/misfeasance/package.zip",
+  "size": 72939,
   "icons": {
     "60": "/i/fox_chick60.jpg",
     "128": "/i/fox_chick128.jpg",
@@ -11,7 +11,7 @@
   },
   "default_locale": "en",
   "locales": {
-    "es": {}
+    "en": {}
   },
   "developer": {
     "name": "Ozten",
