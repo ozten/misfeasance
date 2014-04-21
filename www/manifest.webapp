@@ -1,0 +1,18 @@
+{
+  "name": "Misfeasance",
+  "description": "A testing packaged app with mis-matched mini-manifest and manifest",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "/i/fox_chick60.jpg",
+    "128": "/i/fox_chick128.jpg",
+    "256": "/i/fox_chick256.jpg"
+  },
+  "default_locale": "en",
+  "locales": {
+    "en": {}
+  },
+  "developer": {
+    "name": "Ozten",
+    "url": "https://ozten.github.io/misfeasance"
+  }
+}
