@@ -3,7 +3,7 @@
     <p>Misfeasance packaged app installation page</p>
     <script>
       // This URL must be a full url.
-      var manifestUrl = 'https://ozten.github.io/misfeasance/package.manifest';
+      var manifestUrl = 'https://ozten.github.io/misfeasance/manifest.webapp';
       var req = navigator.mozApps.installPackage(manifestUrl);
       req.onsuccess = function() {
         alert(this.result.origin);
