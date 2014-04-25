@@ -5,11 +5,8 @@
       // This URL must be a full url.
       var manifestUrl = 'https://ozten.github.io/misfeasance/manifest.webapp';
       var req = navigator.mozApps.installPackage(manifestUrl);
-      req.onsuccess = function() {
-        alert(this.result.origin);
-      };
       req.onerror = function() {
-        alert(this.error.name);
+        alert('Error installing ' + this.error.name);
       };
     </script>
   </body>
